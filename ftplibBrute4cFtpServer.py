@@ -1,6 +1,8 @@
 #!/usr/bin/env python
+# Author:Alison Muko
+# The darkZone project
 
-import stplib
+import ftplib
 import optparse
 import time
 
