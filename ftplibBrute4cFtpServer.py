@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-# Author:Alison Muko
-# The darkZone project
 
 import ftplib
 import optparse
