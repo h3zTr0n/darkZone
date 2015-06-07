@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Web spider
 import ftplib
 import optparse
 import time
