@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # calling usefull modules
-# Author: Alison Mukoma _kernel21
 import urllib.request, urllib.error, urllib.parse
 
 LOGIN  = 'alison'
