@@ -1,10 +1,16 @@
 #!/usr/bin/env python
+
 # form vreifie
+# Author Mukoma Alison
+# Inspired by Samaria*
+
+# Calling Usefule modules
 import time
 import base64
 import socket
 import socket
 
+# User Authentication
 def userPasswd():
     USERNAME = raw_input('Enter username please: ')
     PASSWORD = raw_input('Enter password Please: ')
