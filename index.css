@@ -1,0 +1,71 @@
+/*Author    : Alison Mukoma 						  */
+/*Email     : sonmuko@cybernet.web 						*/
+/*Community : Resides @ the PyUnix community GlobalServer */
+
+html{
+	padding-left: 10%;
+	padding-right: 10%; 
+	background-color: teal;
+  	color: white;
+	/*background: url(state.jpg); */
+	background-size: 100% 100%;	
+	transparency: 50%;
+}
+.container{
+	border-left: 0%;
+	border-right: 0%;
+	width: 90%;
+	transparency: 50%;
+}
+
+#topheading{
+	color: #180000;
+	font-style: bold;
+}
+.jumbotron{
+	color: #006699;
+}
+
+h3{
+	color:#FFFFCC;
+	font-style: italic;
+	/*text-shadow: 2px 2px 8px #FF0000;*/
+}
+h4{
+	color: #330000;
+	font-style: bolder;
+}
+
+small{
+	color: #FFFFCC;
+}
+#sub{
+	color: #990033;
+}
+
+.innersub{
+	color: #33CC00;
+}
+.row{
+	color: #006699; /*#6666CC;*/
+}
+h2{
+	color: #FFFFCC;
+}
+
+body{
+	background-color: #280000 ;
+	 border: 1px solid #FFFFCC;
+	 border-bottom: none;
+	 }
+
+
+#navlist{
+	color:#006699;
+}
+
+p {
+
+  }
+
+
