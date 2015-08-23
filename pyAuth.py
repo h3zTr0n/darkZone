@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 # form vreifie
-import ctime.sleep
+import time
 import random
 import base64
 import socket
-
-from socket import (AF_INET, SOCK_STREAM
-                        connect, recv, close, bind, socket)
+import socket
 
 def userPasswd():
     USERNAME = raw_input('Enter username please: ')
@@ -17,10 +15,10 @@ def userPasswd():
         return str(encode)
         return str(USERNAME)
 
-class BrowserRequest(oblect):
+class BrowserRequest(object):
     def __init__(self, text):
         self.info = {}
-        lines = [r.strip() for r in text.split()"\n"]
+        lines = [r.strip() for r in text.split()+"\n"]
 
         # First line takes the form of
         # GET /file/path/ HTTP/1.1
@@ -144,7 +142,7 @@ class SimpleServer(object):
             status  =   404
             html    =   open(self.page404).read() if self.page404 else self.default_404
             data    =   (self.get_header(status), html)
-            return  =   (status, data)
+            return      (status, data)
 
     def get_header(self, code):
         return "HTTP/1.0 {0} {1}\n\n".format(code, self.STATUSES[code])
