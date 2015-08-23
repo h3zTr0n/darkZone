@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # form vreifie
 import time
-import random
 import base64
 import socket
 import socket
