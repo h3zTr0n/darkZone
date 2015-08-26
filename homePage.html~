@@ -36,7 +36,7 @@
 					</button>
 
 					<a href="" class="navbar-brand" id="logo"></a>
-					<a img src="images/logo.jpeg"  width="25" height="25" class="img_left imgshadow" class="navbar-brand navbar-left">Logo</a>
+					<a img src="image/logo.jpeg"  width="25" height="25" class="img_left imgshadow" class="navbar-brand navbar-left">Logo</a>
 
 				</div><!-- End navbar Header -->
 				<div class="collapse navbar-collapse" id="navbar-collapse" id="navlist">
